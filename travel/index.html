@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body data-barba="wrapper">
     <header class="nav-header">
       <h1><a href="./index.html" id="logo">days.</a></h1>
       <div class="burger">
@@ -18,7 +18,7 @@
         <div class="line2"></div>
       </div>
     </header>
-    <main>
+    <main data-barba="container" data-barba-namespace="home">
       <section class="mountain slide">
         <div class="hero-img">
           <img src="./img/forest.png" alt="forest image" />
@@ -32,12 +32,14 @@
             <div class="title-swipe t-swipe1"></div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, minus quis. Hic ratione dolore blanditiis est tempore deserunt ipsa, ea id amet cum, odit dolorem, voluptate sapiente dicta! Assumenda, impedit!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            asperiores ad laboriosam iure rem. Voluptates pariatur quo iusto non
+            deleniti.
           </p>
-          <a class="explore mountain-exp">Explore</button>
+          <a class="explore mountain-exp">Explore</a>
           <div class="reveal-text"></div>
         </div>
-      </section> 
+      </section>
       <section class="hike slide">
         <div class="hero-img">
           <img src="./img/hike.png" alt="hike image" />
@@ -45,15 +47,15 @@
         </div>
         <div class="hero-desc">
           <div class="title">
-            <h2>
-              Freedom at your <span class="hike-span">fingertips.</span>
-            </h2>
+            <h2>Freedom at your <span class="hike-span">fingertips.</span></h2>
             <div class="title-swipe t-swipe2"></div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, minus quis. Hic ratione dolore blanditiis est tempore deserunt ipsa, ea id amet cum, odit dolorem, voluptate sapiente dicta! Assumenda, impedit!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            asperiores ad laboriosam iure rem. Voluptates pariatur quo iusto non
+            deleniti.
           </p>
-          <a class="explore hike-exp">Explore</button>
+          <a class="explore hike-exp">Explore</a>
           <div class="reveal-text"></div>
         </div>
       </section>
@@ -70,12 +72,14 @@
             <div class="title-swipe t-swipe3"></div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipqqqqqqqqqqisicing elit. Dolorem, minus quis. Hic ratione dolore blanditiis est tempore deserunt ipsa, ea id amet cum, odit dolorem, voluptate sapiente dicta! Assumenda, impedit!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            asperiores ad laboriosam iure rem. Voluptates pariatur quo iusto non
+            deleniti.
           </p>
-          <a class="explore fashion-exp">Explore</button>
+          <a href="./fashion/index.html" class="explore fashion-exp">Explore</a>
           <div class="reveal-text"></div>
         </div>
-      </section>                 
+      </section>
     </main>
     <nav class="nav-bar">
       <ul class="nav-links">
@@ -96,7 +100,7 @@
     </div>
     <div class="swipe swipe1"></div>
     <div class="swipe swipe2"></div>
-    <div class="swipe swipe3"></div>    
+    <div class="swipe swipe3"></div>
     <script src="https://unpkg.com/@barba/core"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
