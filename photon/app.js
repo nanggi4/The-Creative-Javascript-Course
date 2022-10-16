@@ -2,8 +2,9 @@ const auth = ""; //ADD THE AUTH KEY
 const gallery = document.querySelector(".gallery");
 const searchInput = document.querySelector(".search-input");
 const form = document.querySelector(".search-form");
-let searchValue;
 const more = document.querySelector(".more");
+
+let searchValue;
 let page = 1;
 let fetchLink;
 let currentSearch;
@@ -51,7 +52,6 @@ function generatePictures(data) {
 async function curatedPhotos() {
   fetchLink = "https://api.pexels.com/v1/curated?per_page=15&page=1";
   const data = await fetchApi(fetchLink);
-
   generatePictures(data);
 }
 
